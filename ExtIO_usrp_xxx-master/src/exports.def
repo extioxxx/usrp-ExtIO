@@ -1,0 +1,33 @@
+LIBRARY ExtIO_USRP
+
+EXPORTS
+CloseHW 
+GetHWLO
+GetHWSR 
+GetStatus
+InitHW 
+OpenHW 
+SetCallback 
+SetHWLO 
+ShowGUI 
+HideGUI
+SwitchGUI
+StartHW 
+StopHW
+
+;; Samplerate / Bandwidth:
+;    ExtIoGetSrates                 
+;    ExtIoGetActualSrateIdx        
+;    ExtIoSetSrate                 
+
+;; Settings
+;    ExtIoGetSetting            
+;    ExtIoSetSetting               
+
+;    GetAttenuators               
+;    GetActualAttIdx               
+;    SetAttenuator                 
+	
+;;	ExtIoGetAGCs                
+;;	ExtIoGetActualAGCidx		  
+;;	ExtIoSetAGC                  
